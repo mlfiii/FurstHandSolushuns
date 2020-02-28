@@ -4,6 +4,9 @@ body {
   height: 100%;
   width: 100%;
   padding: 0px 0px 0px 0px;
+  margin: 0px;
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  
 }
 /* Set how much of the viewable space is taken by the container
 and ensure that the padding is taken away. */
@@ -11,12 +14,14 @@ and ensure that the padding is taken away. */
   height: 100vh;
   width: 100%;
   padding: 0px 0px 0px 0px;
+  background: url(../images/white-waves/white-waves.png) repeat top left;
 }
 
 /* Set all attributes that apply to the full header area. */
 .header-title {
   /*Main header background color: #ffffff*/
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: url(../images/white-waves/white-waves.png) repeat top left;
   color: #005587;
   padding: 0px 0px 0px 0px;
   margin-top: 0;
@@ -30,7 +35,8 @@ and ensure that the padding is taken away. */
 
 .header-menu {
     /*Main header background color: #ffffff*/
-    background: #ffffff;
+    background: url(../images/white-waves/white-waves.png) repeat top left;
+    /* background: #ffffff; */
     color: #005587;
     padding: 0px 0px 0px 0px;
     margin-top: 0;
@@ -53,3 +59,43 @@ h5{
     margin-right: 10px;
     vertical-align: middle;
 }
+
+.navbar{
+
+  border-bottom: solid 2px black;
+  padding-right: 43px;
+}
+
+#content-row {
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  height: auto;
+}
+#content {
+  color: black;
+  background-color: white;
+  margin: 10px 8.33% 50px 8.33%;
+  height: fit-content;
+  position: relative;
+  padding-top: 10px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-width: 1px 1px 1px 1px;
+}
+.site-footer-formats {
+  /*Footer background color: #666666*/
+  background-color: black;
+  text-align: center;
+  border-top: 8px solid  yellow;
+  /*The entire content and the main section content area is 960px wide.*/
+  width: 100%;
+  /* padding-top: 35px; */
+  height: fit-content;
+  position: fixed;
+  bottom: 0;
+}
+
+.nav-item{
+
+  /* padding-right: 10px; */
+}
+
