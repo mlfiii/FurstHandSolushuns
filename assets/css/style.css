@@ -115,3 +115,8 @@ width: 20%;
 height: 20%;  
 border: solid 1px black;
 }
+
+.navbar-toggle.navbar-right {
+  float: right;
+  margin-left: 10px;
+}
