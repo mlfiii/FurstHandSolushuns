@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("../images/craig-whitehead-Yow3cJ0btws-unsplash.jpg");
+    
+  
+    /* Full height */
+    height: 20%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+  .navbar{
+    margin-bottom: 50px;
+    color: black !important;
+    border-bottom: black 2px solid;
+
+  }
+
+  .nav-link{
+
+    color: black !important;
+  }
+
+  /* style="height:50%;background-color:black;font-size:36px" */
+  #about{
+
+    height: fit-content;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    border-top: yellow solid thin;
+    border-bottom: yellow solid thin;
+    padding: 50px 10px;
+
+
+  }
+
+  .index-picture-1-section{
+
+   margin: 10px 0px;
+  }
+
+  #whatwedo{
+
+    height: fit-content;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    border-top: yellow solid thin;
+    border-bottom: yellow solid thin;
+    padding: 50px 10px;
+
+
+  }
+
+
+  #contact{
+
+    height: fit-content;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    border-top: yellow solid thin;
+    border-bottom: yellow solid thin;
+    padding: 50px 10px;
+
+
+  }
