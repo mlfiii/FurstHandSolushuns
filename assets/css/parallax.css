@@ -8,7 +8,7 @@ body, html {
     
   
     /* Full height */
-    height: 20%;
+    height: 50%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -59,7 +59,7 @@ body, html {
 
   #whatwedo{
 
-    height: 500px;
+    height: fit-content;
     background-color: black;
     font-size: 1rem;
     color: white;
