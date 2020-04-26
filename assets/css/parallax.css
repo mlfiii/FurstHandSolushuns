@@ -4,11 +4,11 @@ body, html {
   
   .parallax {
     /* The image used */
-    background-image: url("../images/craig-whitehead-Yow3cJ0btws-unsplash.jpg");
+    background-image: url("../images/lianhao-qu-LfaN1gswV5c-unsplash.jpg");
     
   
     /* Full height */
-    height: 50%;
+    height: 25%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
